@@ -1,0 +1,21 @@
+import numpy as np
+from gnuradio import gr
+
+class blk(gr.sync_block):
+    def __init__(self):
+        gr.sync_block.__init__(
+            self,
+            name='AirComp BPSK',
+            in_sig=[np.complex64],
+            out_sig=[np.int8]
+        )
+
+    def work(self, input_items, output_items):
+        in0 = input_items[0]
+        out = output_items[0]
+        real_part = np.real(in0)
+        
+        # AirComp BPSK demodulation
+        out[:] = np.digitize(real_part, bins=[-1, 1])
+        
+        return len(out)
