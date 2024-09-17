@@ -59,4 +59,4 @@ over-the-air using digital modulations,” 2023.
 3. U. Mengali and A. N. D’Andrea, Synchronization techniques for digital
 receivers, ser. Applications of communications theory. New York:
 Plenum Press, 1997. ISBN 0306457253
-4. Tzu-Chiao Lin, "Synchronization on PSK Over-the-Air Computation” Master thesis, KTH Royal Institute of Technology, 2023
+4. T. C. Lin, "Synchronization on PSK Over-the-Air Computation” Master thesis, KTH Royal Institute of Technology, 2023
