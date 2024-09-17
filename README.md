@@ -51,4 +51,12 @@ The phase that the receiver should recovered is
 $\theta_{rx} = - \sum_{k}^{}  (2\pi f_{tx,k} \tau_k + \phi_{txLO,k} ) - \phi_{rxLO}.$
 
 ## Reference
-[1] Synchronization on PSK Over-the-Air Computation
+1. S. Razavikia, “Channelcomp: A general framework for computing by
+digital communication,” Ph.D. dissertation, KTH Royal Institute of
+Technology, 2023
+2. S. Razavikia, J. M. B. d. SilvaJr, and C. Fischione, “Computing functions
+over-the-air using digital modulations,” 2023.
+3. U. Mengali and A. N. D’Andrea, Synchronization techniques for digital
+receivers, ser. Applications of communications theory. New York:
+Plenum Press, 1997. ISBN 0306457253
+4. Tzu-Chiao Lin, "Synchronization on PSK Over-the-Air Computation” Master thesis, KTH Royal Institute of Technology, 2023
